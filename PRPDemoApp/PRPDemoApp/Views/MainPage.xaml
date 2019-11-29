@@ -10,8 +10,8 @@
 
 	  <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
           <Label Text="MainPage" VerticalOptions="Center" HorizontalOptions="Center" />
-		          <Button Text="P R P Home" Command="{Binding Path=NavigateCommand}" CommandParameter="NavigationPage/PRPHome" />
-          <Button Text="Google Home" Command="{Binding Path=NavigateCommand}" CommandParameter="NavigationPage/GoogleHome" />
+		          <Button Text="P R P Home" Command="{Binding Path=NavigateCommand}" CommandParameter="PRPHome" />
+          <Button Text="Google Home" Command="{Binding Path=NavigateCommand}" CommandParameter="GoogleHome" />
 	  </StackLayout>    
 
 </ContentPage>

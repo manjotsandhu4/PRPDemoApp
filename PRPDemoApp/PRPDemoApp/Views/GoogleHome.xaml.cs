@@ -7,6 +7,7 @@ namespace PRPDemoApp.Views
         public GoogleHome()
         {
             InitializeComponent();
+            GoogleWebview.Source = "https://www.google.com/";
         }
     }
 }

@@ -7,6 +7,8 @@ namespace PRPDemoApp.Views
         public PRPHome()
         {
             InitializeComponent();
+            //Providing url for webview
+            PrpWebview.Source = "https://www.peelpolice.ca/en/index.aspx";
         }
     }
 }

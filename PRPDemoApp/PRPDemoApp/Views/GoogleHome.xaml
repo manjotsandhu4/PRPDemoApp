@@ -7,13 +7,14 @@
 	xmlns:local="clr-namespace:PRPDemoApp.Views;assembly=PRPDemoApp"
     x:Class="PRPDemoApp.Views.GoogleHome"
     Title="Google Home">
-
-
-
-	  <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-          <Label Text="GoogleHome" VerticalOptions="Center" HorizontalOptions="Center" />
-			  </StackLayout>
-    
-
+    <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+        <ScrollView>
+            <WebView HorizontalOptions="FillAndExpand"
+                     VerticalOptions="FillAndExpand"
+                     HeightRequest="1000"
+                     x:Name="GoogleWebview">
+            </WebView>
+        </ScrollView>
+    </StackLayout>
 </ContentPage>
 
